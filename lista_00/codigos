@@ -1,0 +1,15 @@
+# Criar os diretórios
+mkdir -m 570 dir1
+mkdir -m 550 dir2
+mkdir -m 410 dir3
+
+# Criar os arquivos
+touch -m -t 202306012047.00 test0
+touch -m -t 202306012146.00 test1
+touch -m -t 202306012245.00 test2
+touch -m -t 202306012344.00 test3
+touch -m -t 202306012343.00 test4
+touch -m -t 202306012344.00 test5
+
+# Criar o link simbólico
+ln -s test0 test6
